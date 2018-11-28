@@ -17,6 +17,7 @@ const Task = ({
         <div>{description}</div>
       </div>
       <div className="inputControls">
+        <label>Done </label>
         <input
           name="taskdone"
           type="checkbox"
